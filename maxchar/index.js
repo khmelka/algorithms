@@ -19,7 +19,7 @@ function maxChar(str) {
         }
     }
 
-    for (char in chars) {
+    for (char in chars) {     
         if (chars[char] > max) {
             max = chars[char]
             maxChar = char
